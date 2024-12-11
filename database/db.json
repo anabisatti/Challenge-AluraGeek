@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": "3ff1",
+      "nome": "Produto1",
+      "valor": "100",
+      "imagem": "assets/produto1.png"
+    },
+    {
+      "id": "61ba",
+      "nome": "Produto2",
+      "valor": "110",
+      "imagem": "assets/produto2.png"
+    },
+    {
+      "id": "2cd1",
+      "nome": "Produto3",
+      "valor": "120",
+      "imagem": "assets/produto3.png"
+    },
+    {
+      "id": "960f",
+      "nome": "Produto4",
+      "valor": "130",
+      "imagem": "assets/produto4.png"
+    },
+    {
+      "id": "a4d6",
+      "nome": "produto5",
+      "valor": "140",
+      "imagem": "assets/produto5.png"
+    },
+    {
+      "id": "5c86",
+      "nome": "Produto6",
+      "valor": "150",
+      "imagem": "assets/produto5.png"
+    },
+    {
+      "id": "a75c",
+      "nome": "Produto7",
+      "valor": "160",
+      "imagem": "assets/produto7.png"
+    },
+    {
+      "id": "cf14",
+      "nome": "Produto8",
+      "valor": "170",
+      "imagem": "assets/produto8.png"
+    },
+    {
+      "id": "0b20",
+      "nome": "Produto9",
+      "valor": "180",
+      "imagem": "assets/produto9.png"
+    },
+    {
+      "id": "e313",
+      "nome": "Produto10",
+      "valor": "190",
+      "imagem": "assets/produto10.png"
+    },
+    {
+      "id": "af17",
+      "nome": "Produto11",
+      "valor": "200",
+      "imagem": "assets/produto11.png"
+    },
+    {
+      "id": "789d",
+      "nome": "Produto12",
+      "valor": "210",
+      "imagem": "assets/produto12.png"
+    }
+  ]
+}

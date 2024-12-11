@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Challenge AluraGeek</title>
+</head>
+<body>
+	 
+	 <header class="header">
+        <img src="./assets/Logo.svg" alt="logo alurageek" />
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Pesquisar produtos..." />
+            <button type="submit" class="search-button">Buscar</button>
+        </form>
+    </header>
+
+    
+    <main class="container-principal">
+        <section>
+            <h1>Meus Produtos:</h1>
+            <div data-mensagem-sem-produtos class="mensagem-sem-produtos hidden">
+                Nenhum produto foi adicionado.
+            </div>
+            <div data-product class="container-produtos"></div>
+        </section>
+
+        
+        <section>
+            <h1>Adicionar Produto:</h1>
+
+            
+            <form class="container-formulario" data-form>
+                <input data-name placeholder="nome..." type="text" required>
+                <input data-price placeholder="preço..." type="text" required>
+                <input data-image placeholder="imagem..." type="text" required>
+                <span data-mensagem class="mensagemErro"></span>
+                <div class="container-botoes">
+                    <button type="submit" class="botao-enviar" id="botao">Enviar...</button>
+                    <button type="reset" class="botao-limpar" id="botao">Limpar...</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+
+    
+    <footer class="container-rodape">
+        <div>
+            <img src="./assets/Logo.svg" alt="logo alura"/>
+        </div>
+        <p> Desenvolvido por Ana Bisatti</p>
+        <small>Alurageek 2024</small>
+    </footer>
+	<script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>
