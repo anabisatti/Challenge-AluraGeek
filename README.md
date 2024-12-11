@@ -50,7 +50,7 @@ Layout ajustável para diferentes dispositivos.
 
 Clone o repositório:
 
-git clone https://github.com/anabisatti/alura-geek.git
+git clone https://github.com/anabisatti/Challenge-AluraGeek
 
 Acesse o diretório do projeto:
 
